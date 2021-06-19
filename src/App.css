@@ -1,0 +1,12 @@
+.app {
+  background-color: black;
+  height: 100vh;
+  padding: 10px;
+}
+.app__input {
+  background-color: white;
+  border-radius: 15px;
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+}

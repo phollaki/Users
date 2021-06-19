@@ -1,0 +1,27 @@
+.userInput {
+}
+.userInput__inputField {
+  padding: 5px 20px 20px;
+}
+.userInput__inputField.invalid > input {
+  background-color: pink;
+}
+.userInput__inputField > input {
+  width: 90%;
+}
+.userInput__button {
+  margin-top: 10px;
+}
+.userInput__button > button {
+  margin-top: 10px;
+  background-color: rgb(248, 145, 163);
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+.userInput__button > button:hover {
+  background-color: rgb(248, 104, 128);
+}
