@@ -53,7 +53,7 @@ function UserInput(props) {
             value={enteredAge}
             onChange={enteredAgeEventHandler}
           ></input>
-          <div className="userInput__button">
+          <div className={styles.userInput__button}>
             <button type="submit">Add User</button>
           </div>
         </div>
